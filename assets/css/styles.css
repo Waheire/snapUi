@@ -1,0 +1,136 @@
+/* font family */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Epilogue:wght@500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* default */
+:root {
+  /* colors */
+  /* neutral */
+  --almost-white: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "sans-serif", "Epilogue";
+  font-weight: 500, 700;
+  background-color: #f3f3f3;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+/*  navbar */
+.navbar {
+  overflow: hidden;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* logo */
+.logo {
+  float: left;
+  padding: 15px;
+}
+
+/* left navabar */
+.left-nav {
+  float: left;
+}
+
+.left-nav li,
+.right-nav li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+}
+
+.left-nav a,
+.right-nav a {
+  text-decoration: none;
+  text-align: center;
+  color: #030303;
+}
+
+/* right navbar  */
+.right-nav {
+  float: right;
+}
+
+.right-nav button {
+  padding: 10px 20px;
+}
+
+/* hero section */
+.hero {
+  height: 90vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  /* background-color: red; */
+}
+
+.hero .hero-left {
+  width: 50%;
+  float: left;
+  /* background-color: red; */
+}
+
+.hero-heading {
+  margin-top: 20%;
+}
+
+.hero-heading h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.hero-heading p {
+  padding-bottom: 2rem;
+  padding-right: 30%;
+  color: #030303;
+  line-height: 2rem;
+}
+
+.hero-heading button {
+  padding: 10px 20px;
+  background-color: #030303;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.hero-left .client-logos {
+  margin-top: 10%;
+}
+
+.hero-left .client-logos img {
+  padding-right: 3rem;
+}
+
+.hero .hero-right {
+  width: 50%;
+  float: right;
+  /* background-color: blue; */
+}
+
+.hero-right img {
+  width: 80%;
+  padding-top: 2rem;
+
+}
+/* mobile first approach  375px  */
+
+/* Small devices (portrait tablets and large phones, 375px and up) */
+@media only screen and (min-width: 375px) {
+}
+
+/* desktop - 1440px */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1440px) {
+
+  
+}
